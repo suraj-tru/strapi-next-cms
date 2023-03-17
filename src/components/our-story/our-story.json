@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_our_story_our_stories",
+  "info": {
+    "displayName": "ourStory",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "team": {
+      "displayName": "ourTeam",
+      "type": "component",
+      "repeatable": true,
+      "component": "our-story.our-team"
+    }
+  }
+}

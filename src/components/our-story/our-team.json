@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_our_story_our_teams",
+  "info": {
+    "displayName": "ourTeam"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
